@@ -1,0 +1,71 @@
+.wrapper{
+    padding: 0 35px;
+}
+h1{
+    font-family: tahoma;
+    color: #fff;
+}
+p{
+    font-family: georgia;
+}
+body{
+    text-align: center;
+}
+.myBox1{
+    width: 640px;
+    height: 300px;
+    background-color: orange;
+    margin: 5px auto;
+    padding: 10px 30px;
+    float: left;
+}
+.myBox2{
+    width: 440px;
+    height: 300px;
+    background-color:red;
+    margin: 5px auto;
+    padding: 10px 30px;
+    float: right;
+}
+.myBox2 p{
+    margin-top: 50px;
+    line-height: 50px;
+}
+input{
+    margin: 5px auto;
+}
+input[type=text],[type=password],[type=number]{
+    background-color:transparent;
+    border: solid 1px white;
+    color: grey;
+    border: none;
+}
+input[type=button]{
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+input[type=button]:hover{
+    background-color: #fff;
+    border: solid 1px white;
+    color: red;
+}
+input[type=password]:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border: solid 1px #fff;
+    color: red;
+}
+input[type=text]:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border: solid 1px #fff;
+    color: red;
+}
+input[type=number]:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border: solid 1px #fff;
+    color: red;
+}

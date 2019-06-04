@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>js</title>
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+</head>
+<body>
+    <div class="form">
+        <form>
+            <label>Weight (in Kg)</label> <br>
+            <input type="number" id="weight"><br>
+            <label>Height (in M)</label><br>
+            <input type="number" id="height"><br>
+            <a href="#" onclick="calcArea()">Calculate BMI</a> 
+            <!-- <input type="button" onclick="calcArea()" value="Calculate area"> -->
+            <input type="text" id="answer" size="10px">
+
+            <p>
+                Less than 18.5 : UNDERWEIGHT / MALNOURISHED <br>
+                18.5 to 24.9  : HEALTHY WEIGHT <br>
+                25.0 to 29.9  : OVERWEIGHT <br>
+                over 30 : OBESE
+            </p>
+        </form>
+    </div>  
+
+
+
+	<script>
+     function calcArea(){
+        var h = document.getElementById("height").value;
+        var w = document.getElementById("weight").value;
+
+        var area = w / (h * h);
+
+        document.getElementById("answer").value= area;
+
+    }   
+    </script>
+</body>
+</html>
